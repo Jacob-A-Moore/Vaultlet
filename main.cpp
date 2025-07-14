@@ -61,12 +61,13 @@ int main()
             // TODO: Handle logic for 'list'
             std::map<std::string, std::string> store_data {store.list()};
             
-            std::cout << "KEY   |VALUE ";
+            std::cout << "KEY:\tVALUE:\n"<<std::endl;
             for(const auto& pair : store_data)
             {
-                std::cout << pair.first << "    |" << pair.second << std::endl;
+                std::cout << pair.first << '\t' << pair.second << '\n'<< std::endl;
             }  
         }
+
         else if (command == "clear")
         {
             // TODO: Handle logic for 'clear' or 'empty'

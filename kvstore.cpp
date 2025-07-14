@@ -6,6 +6,8 @@
 /* DEV PROJECT NOTES: 
  * --> Any instanct of getline() may be able to be replaced by '>>' extraction
  * operator. Look into it further then implement if functionality is either more optimal or simplified
+ * --> Generalizing the map data types could prove beneficial, for instance the kvstore can potentially 
+ * store more than just std::string, or keep std::string value storage and just parse on extraction
  * -->
  */
 
@@ -14,7 +16,7 @@
  */
 kvstore::kvstore()
 {
-    filename = "./vaultlet/kvdata.txt";
+    filename = "./kvdata.txt";//"./vaultlet/kvdata.txt";
 }
 
 /*func; args std::string& key + filename; takes args and ensures given keys existence
