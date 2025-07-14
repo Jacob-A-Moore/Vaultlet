@@ -1,5 +1,2 @@
-favorite_food   pizza,
-bestest_wife    Cassandra_Moore,
-father  God_of_Abraham,
-Name	Jacob,
 fav_superhero	SuperMan,
+best_wife	Cassandra,favorite_food	pizza,

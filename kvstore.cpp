@@ -160,7 +160,7 @@ bool kvstore::remove(std::string target_key)
         {
             if(key != target_key)
             {
-                lines.push_back(key + '\t' + value);
+                lines.push_back(key + '\t' + value + ',');
             }
             else
             {
