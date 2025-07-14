@@ -14,7 +14,7 @@
  */
 kvstore::kvstore()
 {
-    filename = "./vaultlet/kvdata.txt";
+    filename = "./kvdata.txt";//"./vaultlet/kvdata.txt";
 }
 
 /*func; args std::string& key + filename; takes args and ensures given keys existence
